@@ -1,6 +1,5 @@
 .main {
   margin-top: 100px;
-  text-align: center;
 }
 
 .google-img {
@@ -26,6 +25,8 @@
 }
 
 .btn {
+  margin-left: 4px;
+  margin-right: 4px;
   margin-top: 30px;
   background: #dfe1e5;
   border: none;
@@ -35,4 +36,9 @@
   padding-right: 16px;
   border-radius: 4px;
   font-size: 14px;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
 }
