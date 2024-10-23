@@ -1,27 +1,30 @@
+/* Background and Layout */
 body {
-  background: #1a1a1a;
-  font-family: Arial, sans-serif;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-  padding: 20px;
+  background: linear-gradient(135deg, #1d2b64, #f8cdda);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 40px;
+  text-align: center;
 }
 
 .container {
-  max-width: 800px;
+  max-width: 600px;
   margin: 0 auto;
-  background: linear-gradient(to bottom, #333, #444);
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background: #262626;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  color: #fff;
 }
 
+/* Image Styling */
 .image-container {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   overflow: hidden;
   margin: 20px auto;
+  border: 3px solid #66d9ef;
 }
 
 .image-container img {
@@ -30,39 +33,63 @@ body {
   object-fit: cover;
 }
 
+/* Headings */
 h1 {
   color: #fff;
-  font-size: 36px;
-  margin-bottom: 10px;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+h1 .highlight {
+  color: #f39c12;
 }
 
 h2 {
-  color: #ccc;
-  font-size: 24px;
-  margin-bottom: 10px;
+  color: #b2bec3;
+  font-size: 28px;
+  margin-bottom: 15px;
 }
 
+/* List Items */
 ul {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin-bottom: 20px;
 }
 
 li {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
+  font-size: 18px;
+  text-align: left;
+  display: inline-block;
+  color: #fff;
 }
 
+li i {
+  color: #f39c12;
+  margin-right: 10px;
+}
+
+/* Links */
 a {
   color: #66d9ef;
   text-decoration: none;
+  font-size: 30px;
+  transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #fff;
+  color: #f39c12;
 }
 
 .fa-brands,
 .fa-solid {
-  font-size: 24px;
-  margin: 10px;
+  font-size: 30px;
+  margin: 0 15px;
+  transition: transform 0.3s ease;
+}
+
+.fa-brands:hover,
+.fa-solid:hover {
+  transform: scale(1.2);
 }
