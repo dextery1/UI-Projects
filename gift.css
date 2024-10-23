@@ -1,7 +1,7 @@
 body {
   text-align: center;
   font-family: "Happy Monkey", system-ui;
-  background: #a2d2ff;
+  background: linear-gradient(#a2d2ff, #eeb0c9);
   color: #ffffff;
   /* display: flex; /* # NEW  */
   /* flex-direction: column;  # NEW  */
@@ -78,4 +78,12 @@ p {
 
 #gift-img-badass:hover {
   background-image: url("gifs/badass.gif");
+}
+
+#gift-img-cheers {
+  height: 200px;
+}
+
+#gift-img-cheers:hover {
+  background-image: url("gifs/cheers.gif");
 }
