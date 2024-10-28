@@ -60,24 +60,24 @@ p {
   height: 400px;
   border: 6px solid white;
   border-radius: 10px;
-  background-image: url("gift-cover.jpg");
+  background-image: url("/images/gift-cover.jpg");
   background-size: cover;
 }
 
 #gift-img-happy:hover {
-  background-image: url("gifs/happy.gif");
+  background-image: url("/gifs/happy.gif");
 }
 
 #gift-img-hot:hover {
-  background-image: url("gifs/hot.gif");
+  background-image: url("/gifs/hot.gif");
 }
 
 #gift-img-genius:hover {
-  background-image: url("gifs/genius.gif");
+  background-image: url("/gifs/genius.gif");
 }
 
 #gift-img-badass:hover {
-  background-image: url("gifs/badass.gif");
+  background-image: url("/gifs/badass.gif");
 }
 
 #gift-img-cheers {
@@ -85,5 +85,5 @@ p {
 }
 
 #gift-img-cheers:hover {
-  background-image: url("gifs/cheers.gif");
+  background-image: url("/gifs/cheers.gif");
 }
