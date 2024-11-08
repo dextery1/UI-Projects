@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/css/tempt.css" />
+    <title>Temperature Conversion</title>
+  </head>
+  <body>
+    <form>
+      <h1>Temperature Conversion</h1>
+      <input
+        type="text"
+        id="textBox"
+        value="0"
+        aria-label="Temperature Input"
+      /><br />
+
+      <input type="radio" id="toFahrenheit" name="unit" />
+      <label for="toFahrenheit">Celsius ➡️ Fahrenheit</label><br />
+
+      <input type="radio" id="toCelsius" name="unit" />
+      <label for="toCelsius">Fahrenheit ➡️ Celsius</label><br />
+
+      <button type="button" onclick="convert()">Submit</button>
+      <p id="result" aria-live="polite"></p>
+    </form>
+    <script src="/script/tempt.js"></script>
+  </body>
+</html>
