@@ -70,23 +70,55 @@ li .fa {
   transition: color 0.3s ease;
 }
 
-/* li:hover .desc {
-  color: #f39c12;
-} */
-
 /* Back to Main Page */
 .btp {
   text-align: center;
   margin-top: 30px;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .btp a {
   color: #66d9ef;
   text-decoration: none;
+  font-weight: bold;
   transition: color 0.3s ease;
+  display: inline-flex;
+  align-items: center;
 }
 
 .btp a:hover {
   color: #5bb8d4;
+}
+
+.btp .fa-home {
+  margin-right: 8px;
+  font-size: 20px;
+}
+
+/* Pagination Styling */
+#pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+#pagination .page-number {
+  background-color: #3a3a4d;
+  color: #66d9ef;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#pagination .page-number:hover {
+  background-color: #53536f;
+  color: #5bb8d4;
+}
+
+#pagination .active {
+  background-color: #66d9ef;
+  color: #1f1f2e;
 }
