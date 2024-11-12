@@ -23,6 +23,8 @@ form {
   text-align: center;
   font-size: 2em;
   border: 2px solid hsla(0, 0%, 0%, 0.8);
+  background-color: black;
+  color: hsl(223, 100%, 64%);
   border-radius: 4px;
   margin-bottom: 15px;
 }

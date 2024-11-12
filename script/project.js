@@ -35,6 +35,12 @@ const projects = [
     title: "Temperature Conversion",
     desc: "Created a Temperature Conversion",
   },
+  {
+    url: "/html/dice.html",
+    icon: "fa-dice",
+    title: "DiceRoller",
+    desc: "Created a Dice Roller",
+  },
 ];
 
 const projectsPerPage = 4;
